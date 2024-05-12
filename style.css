@@ -2,7 +2,8 @@
    margin: 0;
    padding: 0;   
    font-family: sans-serif; 
-}
+} /* Zerando o estilo da página */
+
 .page {
     width: 100%;
     height: 100vh;
@@ -11,7 +12,7 @@
     background-repeat: no-repeat;    
     background-size: 35% 100%;
     background-position: left center;
-}
+} /* Responsável pelo Estilo das Páginas */
 
 .navgationBar {
     width: 90%;
@@ -20,20 +21,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} /* Responsável pelo Estilo barra de Navegação */
 
 .navgationBar ul li {
     list-style: none;
     display: inline-block;
     margin: 0 120px;
     position: relative;
-}
+} /* Responsável pelo Estilo da Lista na barra de Navegação */
 
 .navgationBar ul li a{
    text-decoration: none;
    color: #fff;
    text-transform: uppercase;
-}
+} /* Responsável pelo Estilo dos Lnks da Lista na barra de Navegação */
 
 .navgationBar ul li::after{
     content: '';
@@ -44,38 +45,38 @@
     left: 0;
     bottom: -7px;
     transition: 0.3s;
-}
+} /* Responsável pelo animação em cada link na Barra de Naveção */
 
 .navgationBar ul li:hover::after{
     width: 100%;
- }
+ } /* Responsável pelo animação em cada link na Barra de Naveção */
 
  .content {
-    margin-left: 900px;       
+    margin-left: 45%;       
     width: 35%;
     position: absolute;
     top: 5%;
     transform: translateY(-50);
     text-align: center;
     color: #fff;
- }
+ } /* Responsável pelo Estilo do Conteúdo de casa Página */
 
  .content h1 {
     font-size: 70px;
     margin-top: 80px;
- }
+ } /* Responsável pelo Estilo de Todos os Títulos H1 */
 
  .content h2 {
     font-size: 30px;
     margin-top: 10px;
- }
+ } /* Responsável pelo Estilo de Todos os Títulos H2 */
 
  .content p{
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
     text-align: left;
- }
+ } /* Responsável pelo Estilo de cada Paragráfo nos conteúdos */
 
  .content hr{
     width: 100%;
@@ -83,7 +84,7 @@
     border: 0px;
     border-top: 1px solid red;
     background-color: #dddddd;
- }
+ } /* Responsável pelo Estilo de cada quebra de linha */
 
  .formBox {
     display: flex;
@@ -91,20 +92,20 @@
     background-color: #ccc3c3fb;
     border-radius: 10px;
     width: 700px;
- }
+ } /* Responsável pelo Estilo da caixa do formulário */
 
  .formBox .titleMessage {
     padding: 15px;
     font-size: 24px;
     border-bottom: thin solid #ccc3c3fb;
- }
+ } /* Responsável pelo Estilo do título na caixa do formulário */
 
  .formBox form {
     display: flex;
     align-items: start;
     flex-wrap: wrap;
     padding: 20px;
- }
+ } /* Responsável pelo Estilo do formulário */
 
  .formBox input, .formBox textarea {
     width: 95%;
@@ -114,13 +115,13 @@
     padding-left: 16px;
     margin-bottom: 16px;
     font-size: 16px;   
- }
+ } /* Responsável pelo Estilo do formulário */
 
  .formBox textarea {
     width: 92%;
     height: 180px;
     padding: 16px;
- }
+ } /* Responsável pelo Estilo do formulário */
 
  .formBox button {
     display: block;
@@ -134,8 +135,8 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
- }
+ } /* Responsável pelo Estilo da animação do botão enviar na Caixa do formulário */
 
  .formBox button:hover {
     background-color: #a5c41ac0;
- }
+ } /* Responsável pelo Estilo da animação do botão enviar na Caixa do formulário */
