@@ -1,0 +1,141 @@
+*{
+   margin: 0;
+   padding: 0;   
+   font-family: sans-serif; 
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(image_cv.png);     
+    background-color: #383838; 
+    background-repeat: no-repeat;    
+    background-size: 35% 100%;
+    background-position: left center;
+}
+
+.navgationBar {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navgationBar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 120px;
+    position: relative;
+}
+
+.navgationBar ul li a{
+   text-decoration: none;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.navgationBar ul li::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: #bfdf32;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.3s;
+}
+
+.navgationBar ul li:hover::after{
+    width: 100%;
+ }
+
+ .content {
+    margin-left: 900px;       
+    width: 35%;
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50);
+    text-align: center;
+    color: #fff;
+ }
+
+ .content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+ }
+
+ .content h2 {
+    font-size: 30px;
+    margin-top: 10px;
+ }
+
+ .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: left;
+ }
+
+ .content hr{
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid red;
+    background-color: #dddddd;
+ }
+
+ .formBox {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc3c3fb;
+    border-radius: 10px;
+    width: 700px;
+ }
+
+ .formBox .titleMessage {
+    padding: 15px;
+    font-size: 24px;
+    border-bottom: thin solid #ccc3c3fb;
+ }
+
+ .formBox form {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 20px;
+ }
+
+ .formBox input, .formBox textarea {
+    width: 95%;
+    height: 48px;
+    border-radius: 10px;
+    border: thin solid #999;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;   
+ }
+
+ .formBox textarea {
+    width: 92%;
+    height: 180px;
+    padding: 16px;
+ }
+
+ .formBox button {
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #bfdf32;
+    color: #383838;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ .formBox button:hover {
+    background-color: #a5c41ac0;
+ }
